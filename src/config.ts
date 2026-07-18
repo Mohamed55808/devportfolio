@@ -1,92 +1,113 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Mohamed Mohamed",
+  title: "Student & STEM Explorer",
+  description: "Portfolio website of Mohamed Mohamed",
   accentColor: "#1d4ed8",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "subermohamed8@gmail.com",
+    linkedin: "",
+    twitter: "",
+    github: "",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a high school student passionate about neuroscience, biomedical engineering, and hands-on STEM learning. I’ve explored clinical dermatology, medical device innovation, and customer service roles that strengthened my communication and leadership skills.",
+
+  skills: [
+    "Communication",
+    "Leadership",
+    "Mentoring",
+    "Attention to Detail",
+    "Conflict Resolution",
+    "Git",
+    "VS Code",
+    "Python",
+    "HTML",
+    "CSS"
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Personal Website",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A portfolio website built using the DevPortfolio template and customized with my academic background, STEM experiences, and projects.",
+      link: "",
+      skills: ["Astro", "HTML", "CSS", "Git"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Medtronic Biomedical Explorer",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Participated in Medtronic’s Biomedical Explorer program, learning biomedical engineering concepts and medical device innovation.",
+      link: "",
+      skills: ["Biomedical Engineering", "STEM", "Medical Technology"],
     },
     {
-      name: "ExtensionKit",
+      name: "Dermatology Internship",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Completed 50 hours of clinical shadowing with a Dermatology PA, observing patient care, diagnostics, biopsies, excisions, and skin cancer screenings.",
+      link: "",
+      skills: ["Clinical Experience", "Healthcare", "HIPAA Compliance"],
     },
+    {
+      name: "Math Team Leadership",
+      description:
+        "Captain and founder of the Math Team, organizing practices, leading competitions, and supporting peer learning.",
+      link: "",
+      skills: ["Leadership", "Problem Solving", "Teamwork"],
+    }
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Domino's Pizza",
+      role: "Customer Service Representative",
+      period: "May 2025 – Present",
+      description:
+        "Managed high-volume orders, resolved customer concerns, processed payments, and maintained a clean workspace.",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Handled high-volume customer orders during peak hours",
+        "Resolved customer issues with professionalism and care",
+        "Maintained cleanliness and organization in the workspace",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Medtronic",
+      role: "Biomedical Engineering Explorer",
+      period: "Oct 2025 – Apr 2026",
+      description:
+        "Explored biomedical engineering concepts and medical device innovation through hands-on activities.",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Participated in hands-on biomedical engineering activities",
+        "Learned about medical device design and innovation",
+        "Collaborated with peers in STEM-focused projects",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Schweiger Dermatology",
+      role: "Dermatology Intern",
+      period: "Feb 2026 – Mar 2026",
+      description:
+        "Completed 50 hours of clinical shadowing observing patient care, diagnostics, biopsies, excisions, and skin cancer screenings.",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Observed patient consultations and dermatologic procedures",
+        "Learned about biopsies, excisions, and skin cancer screenings",
+        "Gained exposure to clinical workflows and patient care",
       ],
-    },
+    }
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+      school: "Park Center Senior High School",
+      degree: "High School Diploma (Expected June 2027)",
+      dateRange: "2023 – 2027",          // ⭐ matches edu.dateRange
+      achievements: [                    // ⭐ matches edu.achievements.map
+        "GPA: 3.986",
+        "International Baccalaureate Candidate",
+        "Top 1% of class",
+        "Strong STEM and humanities coursework",
       ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    }
   ],
 };
