@@ -101,8 +101,8 @@ export const siteConfig = {
     {
       school: "Park Center Senior High School",
       degree: "High School Diploma (Expected June 2027)",
-      dateRange: "2023 – 2027",          // ⭐ matches edu.dateRange
-      achievements: [                    // ⭐ matches edu.achievements.map
+      dateRange: "2023 – 2027",
+      achievements: [
         "GPA: 3.986",
         "International Baccalaureate Candidate",
         "Top 1% of class",
